@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#eee"
+    android:orientation="vertical"
+     >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/copyright"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信"
+            android:textSize="35sp"
+            android:textColor="#000"/>
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/main_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_style_green"
+        android:paddingLeft="130dp"
+        android:paddingRight="130dp"
+        android:layout_marginTop="45dp"
+        android:text="登录"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:onClick="welcome_login"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:text="使用QQ或微信号登录"
+        android:textSize="14sp"
+        android:textColor="#444"/>
+    <Button
+        android:id="@+id/main_regist_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style_white"
+        android:gravity="center"
+        android:paddingLeft="130dp"
+        android:paddingRight="130dp"
+        android:text="注册"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:onClick="welcome_register"/>
+        
+</LinearLayout>
