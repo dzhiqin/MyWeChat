@@ -23,6 +23,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.mywechat.activity.Welcome"></activity>
+        <activity android:name="com.example.mywechat.activity.Login"/>
+        <activity android:name="com.example.mywechat.activity.LoadingActivity"/>
+        <activity android:name="com.example.mywechat.activity.MainWeChat"/>
     </application>
 
 </manifest>
