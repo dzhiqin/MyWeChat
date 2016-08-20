@@ -14,7 +14,7 @@ import android.view.Window;
  * @author dzhiqin
  *
  */
-public class AppStart extends Activity{
+public class AppStart extends BaseActivity{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState){

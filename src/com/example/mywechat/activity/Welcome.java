@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 
-public class Welcome extends Activity {
+public class Welcome extends BaseActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState){

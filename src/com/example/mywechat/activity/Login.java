@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.EditText;
 
-public class Login extends Activity{
+public class Login extends BaseActivity{
 
 	/**
 	 * ÕÊºÅ±à¼­¿ò

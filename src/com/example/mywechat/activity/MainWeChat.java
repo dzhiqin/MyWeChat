@@ -1,5 +1,5 @@
 package com.example.mywechat.activity;
 
-public class MainWeChat {
+public class MainWeChat extends BaseActivity{
 
 }
