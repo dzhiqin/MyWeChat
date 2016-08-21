@@ -13,7 +13,7 @@ public class Welcome extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
+	
 		setContentView(R.layout.welcome);
 	}
 	public void welcome_login(View v){
@@ -22,7 +22,7 @@ public class Welcome extends BaseActivity {
 		startActivity(intent);
 		//this.finish();
 	}
-	public void welcom_register(View v){
+	public void welcome_register(View v){
 		Intent intent=new Intent();
 		intent.setClass(Welcome.this, MainWeChat.class);
 		startActivity(intent);
