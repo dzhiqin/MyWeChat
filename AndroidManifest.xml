@@ -24,11 +24,11 @@
         </activity>
         <activity android:name="com.example.mywechat.activity.Welcome"></activity>
         <activity android:name="com.example.mywechat.activity.Login"/>
-        <activity android:name="com.example.mywechat.activity.LoadingActivity"/>
+        <activity android:name="com.example.mywechat.activity.LoadingActivity" android:theme="@android:style/Theme.Translucent"/>
        	<activity android:name="com.example.mywechat.activity.Whatsnew"/>
        	<activity android:name="com.example.mywechat.activity.WhatsnewDoor"/>
         <activity android:name="com.example.mywechat.activity.MainWeChat"/>
-        <activity android:name="com.example.mywechat.activity.MainTopRightDialog"/>
+        <activity android:name="com.example.mywechat.activity.MainTopRightDialog" android:theme="@style/MyDialogStyleTop"/>
         <activity android:name="com.example.mywechat.activity.ChatActivity"/>
         <activity android:name="com.example.mywechat.activity.ExitFromSettings"/>
         <activity android:name="com.example.mywechat.activity.ShakeActivity"/>
