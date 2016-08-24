@@ -18,6 +18,7 @@ import android.view.View.OnClickListener;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
+import android.widget.PopupWindow;
 
 public class MainWeChat extends BaseActivity{
 
@@ -49,8 +50,8 @@ public class MainWeChat extends BaseActivity{
 	private View view1;
 	private View view2;
 	private View view3;
-	
-	
+	private boolean menu_display=false;
+	private PopupWindow menuWindow;
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
@@ -220,7 +221,21 @@ public class MainWeChat extends BaseActivity{
 	/**
 	 * 按键监听
 	 */
-	//
+	public boolean onKeyDown(int keyCode,KeyEvent event){
+		if(keyCode==KeyEvent.KEYCODE_BACK&&event.getRepeatCount()==0){
+			//获取back键
+			if(menu_display){
+				menuWindow.dismiss();
+				menu_display=false;
+				return true;
+			}else{
+				Intent intent=new Intent(MainWeChat.this,Exit.class);
+				startActivity(intent);
+				return true;
+			}
+		}
+		return false;
+	}
 	/**
 	 *微信界面顶部右侧按键 
 	 */

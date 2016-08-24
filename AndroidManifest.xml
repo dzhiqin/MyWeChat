@@ -8,6 +8,7 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="21" />
 
+    <uses-permission android:name="android.permission.VIBRATE" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
@@ -30,8 +31,9 @@
         <activity android:name="com.example.mywechat.activity.MainWeChat"/>
         <activity android:name="com.example.mywechat.activity.MainTopRightDialog" android:theme="@style/MyDialogStyleTop"/>
         <activity android:name="com.example.mywechat.activity.ChatActivity"/>
-        <activity android:name="com.example.mywechat.activity.ExitFromSettings"/>
+       
         <activity android:name="com.example.mywechat.activity.ShakeActivity"/>
+        <activity android:name="com.example.mywechat.activity.ExitFromSettings" android:theme="@style/MyDialogStyleBottom"/>
     </application>
 
 </manifest>
