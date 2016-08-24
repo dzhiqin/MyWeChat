@@ -31,7 +31,7 @@
         <activity android:name="com.example.mywechat.activity.MainWeChat"/>
         <activity android:name="com.example.mywechat.activity.MainTopRightDialog" android:theme="@style/MyDialogStyleTop"/>
         <activity android:name="com.example.mywechat.activity.ChatActivity"/>
-       
+       	<activity android:name="com.example.mywechat.activity.Exit" android:theme="@style/MyDialogStyle"/>
         <activity android:name="com.example.mywechat.activity.ShakeActivity"/>
         <activity android:name="com.example.mywechat.activity.ExitFromSettings" android:theme="@style/MyDialogStyleBottom"/>
     </application>

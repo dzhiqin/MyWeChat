@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- exit_dialog_layout布局的坐标是00，所以从50%p到0是从下网上的动作 -->
+    <!-- exit_dialog_layout布局的坐标0%,0%是相对与自身所以为0，所以从50%p到0%是从下往上的动作 -->
     <translate 
         android:fromYDelta="50%p"
         android:toYDelta="0"

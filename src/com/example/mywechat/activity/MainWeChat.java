@@ -225,7 +225,7 @@ public class MainWeChat extends BaseActivity{
 		if(keyCode==KeyEvent.KEYCODE_BACK&&event.getRepeatCount()==0){
 			//»ñÈ¡back¼ü
 			if(menu_display){
-				menuWindow.dismiss();
+			//	menuWindow.dismiss();
 				menu_display=false;
 				return true;
 			}else{
