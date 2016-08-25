@@ -11,23 +11,27 @@ import android.widget.Toast;
 
 public class Exit extends BaseActivity{
 
-	//private LinearLayout layout;
+	private LinearLayout mlayout;
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.exit_dialog);
-	/*	layout=(LinearLayout)findViewById(R.layout.exit_dialog);
-		layout.setOnClickListener(new View.OnClickListener() {
+		mlayout=(LinearLayout)findViewById(R.id.exit_layout_id);		
+		mlayout.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				Toast.makeText(getApplicationContext(), "提示：点击窗口外部关闭本窗口", Toast.LENGTH_SHORT).show();
 				
 			}
-		});*/
+		});
 	}
 
-	/*@Override
+	/**
+	 * mlayout的click事件被他本身获取了，用于显示提示信息，所以当点击mlayout之外的部分，click事件进入次函数
+	 * 实现点击窗口外部关闭本窗口的功能
+	 */
+	@Override
 	public boolean onTouchEvent(MotionEvent event){
 		finish();
 		return true;
@@ -37,5 +41,5 @@ public class Exit extends BaseActivity{
 	}
 	public void exit_yes(View v){
 		ActivityCollector.finishAll();
-	}*/
+	}
 }

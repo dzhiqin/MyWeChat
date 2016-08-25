@@ -34,6 +34,7 @@
        	<activity android:name="com.example.mywechat.activity.Exit" android:theme="@style/MyDialogStyle"/>
         <activity android:name="com.example.mywechat.activity.ShakeActivity"/>
         <activity android:name="com.example.mywechat.activity.ExitFromSettings" android:theme="@style/MyDialogStyleBottom"/>
+        <activity android:name="com.example.mywechat.activity.InfoXiaohei"/>
     </application>
 
 </manifest>

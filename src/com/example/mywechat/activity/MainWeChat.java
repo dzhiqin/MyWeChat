@@ -172,7 +172,7 @@ public class MainWeChat extends BaseActivity{
 				break;
 			case 1:
 				mTab1.setImageDrawable(getResources().getDrawable(R.drawable.tab_address_pressed));
-				Log.v("test","case 1");
+				//Log.v("test","case 1");
 				if(currentIndex==0){
 					anim =new TranslateAnimation(zero,one,0,0);
 					mTab0.setImageDrawable(getResources().getDrawable(R.drawable.tab_weixin_normal));

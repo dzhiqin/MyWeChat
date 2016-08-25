@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     
-    android:id="@+id/exit_layout"
+    android:id="@+id/exit_layout_id"
     android:layout_width="280dp"
     android:layout_height="wrap_content"
     android:gravity="center_horizontal"
     android:background="@drawable/confirm_dialog_bg2"
+    android:clickable="true"
     android:orientation="vertical" >
     
 	<TextView
