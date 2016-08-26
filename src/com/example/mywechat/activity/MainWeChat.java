@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import com.example.mywechat.R;
 
 import android.content.Intent;
+import android.graphics.Point;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -74,7 +75,11 @@ public class MainWeChat extends BaseActivity{
 		
 		//获取当前屏幕分辨率
 		Display currentDisplay=getWindowManager().getDefaultDisplay();
-		int displayWidth=currentDisplay.getWidth();
+		Point point=new Point();		
+		//用getSize代替了getWidth
+		//int displayWidth=currentDisplay.getWidth();
+		currentDisplay.getSize(point);
+		int displayWidth=point.x;
 		one=displayWidth/4;
 		two=one*2;
 		three=one*3;
