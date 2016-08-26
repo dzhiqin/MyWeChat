@@ -35,6 +35,7 @@
         <activity android:name="com.example.mywechat.activity.ShakeActivity"/>
         <activity android:name="com.example.mywechat.activity.ExitFromSettings" android:theme="@style/MyDialogStyleBottom"/>
         <activity android:name="com.example.mywechat.activity.InfoXiaohei"/>
+        <activity android:name="com.example.mywechat.activity.BigImage"/>
     </application>
 
 </manifest>

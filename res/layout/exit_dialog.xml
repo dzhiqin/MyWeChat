@@ -46,6 +46,7 @@
 	        android:id="@+id/exit_no"
 	        android:layout_width="110dp"
 	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
 	        android:text="否"
 	        android:textSize="16sp"
 	        android:textColor="#333"
